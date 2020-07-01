@@ -76,7 +76,7 @@ client.on('message', (message) => {
     let embed = new Discord.RichEmbed()
       .setTitle('봇 명령어 도움말')
       .setURL('https://ifh.cc/g/KfONEw.png')
-      .setAuthor('성우코인 분석기', img, '')
+      .setAuthor('심심봇', img, '')
       .setThumbnail(img)
       .addBlankField()
       .addField('??심심하다', '--심심하다 유튜브로 이동합니다.--')
@@ -89,7 +89,7 @@ client.on('message', (message) => {
       .addField('??공지', '--공지창으로 이동합니다.--')
       .addBlankField()
       .setTimestamp()
-      .setFooter('성우코인 분석기', img)
+      .setFooter('랏되 봇 메이커', img)
 
     message.channel.send(embed)  
   } 
